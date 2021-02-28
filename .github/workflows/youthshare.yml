@@ -1,4 +1,4 @@
-name: 中青看点1
+name: 中青看点分享
 
 on:
   workflow_dispatch:

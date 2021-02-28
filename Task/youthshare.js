@@ -2,10 +2,10 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focus.youth.cn/article/s?signature=yloGK5wNVmQq0XWaWwgVlwcAmGlNFXnGKp5an93eRAO8BMxdvD&uid=52492099&phone_code=b978812ed4eca2788de4cdbd9dcf1d6a&scid=36473325&time=1614501140&app_version=2.0.0&sign=91016cb068158f3afc001f5c92c19fa4",
-"https://focus.youth.cn/article/s?signature=j6LwoklONRyQvgd4kx3GENuqA925ijQKzNJ78M9zV2YP3KBGAe&uid=52806391&phone_code=b99bf7c37d52dedeec7f5838f61c5c90&scid=36019501&time=1614500968&app_version=2.0.2&sign=c16e31ae0a114f8d0f7a67029d5546e4",
-"https://focu.youth.cn/zerohot/20210228?sid=36512583&uid=54035500&timestamp=1614498909&signature=B3MvlKp05kgOXPA9oG7nRQXr3ujojBV7erYEjxzQLWmw8DnyJb&share_id=54035500365125831614498927138&scene_id=fire_share&time=1614498927&phone_code=6e7a954297b889a95a7f47d28f9be26c&app_version=2.0.2.1&sign=d82dffb62e1819ee1949b64b994f0884",
-"https://focus.youth.cn/article/s?signature=ZLAxJmwrdW82D634Zeg25jUowEXzTvy2lym1N9B05XEbOlQGnj&uid=54052253&phone_code=3823a541d2f30e8977f3240696a8aea2&scid=36511635&time=1614505484&app_version=2.0.2&sign=c3cd35a447d915f7ca873884ecd95d02"]
+let articles = ["https://focus.youth.cn/article/s?signature=qbBkjWwN2L3nP684eJO8o6UpDDqvtBxkWpz7gRyAEYpXDmeo0O&uid=5142771&phone_code=ca9f93ac64b5608d99222785ea97e2dd&scid=36509118&time=1614521280&app_version=2.0.2&sign=69a568bd6bb18c6569888a536e262bf8",
+"https://focus.youth.cn/article/s?signature=6K3Zgj0LVrQbJw94VjgPAOC8oowrToP60ZK4mxB5qW8oDnvelE&uid=5142771&phone_code=ca9f93ac64b5608d99222785ea97e2dd&scid=36506995&time=1614521310&app_version=2.0.2&sign=86476ce98673372a4b89423d669a1d35",
+"https://focus.youth.cn/article/s?signature=lbgJRpz0We53NxQ4QqgNzwuJAAkycx0ykY54koMEv6nydKPZLD&uid=5142771&phone_code=ca9f93ac64b5608d99222785ea97e2dd&scid=36516661&time=1614521320&app_version=2.0.2&sign=57f23c392b6dd7c0bc58fd1cdba1b33b",
+"https://focus.youth.cn/article/s?signature=j6LwoklONRyQvgd4kxzXo3I2nnloujQK0Gw78M9zV2YP3KBGAe&uid=5142771&phone_code=ca9f93ac64b5608d99222785ea97e2dd&scid=36511886&time=1614521329&app_version=2.0.2&sign=2c2d30618c152dbd0c8d6eb7db58c1c3"]
 
 let encodearticles;
 
